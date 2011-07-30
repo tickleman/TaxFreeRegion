@@ -1,0 +1,27 @@
+main: com.creadri.taxfreeregion.TaxFreeRegion
+version: 0.2
+name: TaxFreeRegion
+author: adreide
+website: http://www.creadri.com
+commands:
+  taxfree:
+    aliases: tf
+    description: 'Tax Free Regions Command'
+    usage: |
+      /<command> list
+      /<command> add [name]
+      /<command> remove
+      /<command> reload
+permissions:
+  taxfreeregion.*:
+    default: op
+    description: Allow you to have full access to TaxFreeRegion plugin without having the inventory cleared.
+    children:
+      taxfreeregion.noclear: true
+      taxfreeregion.use: true
+  taxfreeregion.noclear:
+    default: op
+    description: Users that do have this will keep their inventories
+  taxfreeregion.use:
+    default: op
+    description: Permits to add/list and remove taxfreeregions
