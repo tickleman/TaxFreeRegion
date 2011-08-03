@@ -1,7 +1,7 @@
 main: com.creadri.taxfreeregion.TaxFreeRegion
-version: 0.2
+version: 0.3t
 name: TaxFreeRegion
-author: adreide
+author: adreide, tickleman
 website: http://www.creadri.com
 commands:
   taxfree:
