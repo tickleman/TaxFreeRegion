@@ -10,7 +10,7 @@ commands:
     usage: |
       /<command> list
       /<command> add [name]
-      /<command> remove
+      /<command> delete [name]
       /<command> reload
 permissions:
   taxfreeregion.*:
